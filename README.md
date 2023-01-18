@@ -1,8 +1,8 @@
 # Push_swap
- ``..........``
+ ``....a....``
  <div>
   
- ``..........``
+ ``....b....``
 <img src="https://user-images.githubusercontent.com/18141491/213192271-8ef6cde7-4b00-4f05-aebc-24316cdfac62.png"  style="width:150px; height:150px;">  ``Simple andhighly effective algorithm project``
 
 
