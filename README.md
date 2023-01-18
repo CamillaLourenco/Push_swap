@@ -1,5 +1,11 @@
-![push_swapn](https://user-images.githubusercontent.com/18141491/213209505-c9c4c4cb-8fc6-46c1-b288-54b15f21fc3e.png)
-# 42-push-swap
+# Push_swap
+ ``..........``
+ <div>
+  
+ ``..........``
+<img src="https://user-images.githubusercontent.com/18141491/213192271-8ef6cde7-4b00-4f05-aebc-24316cdfac62.png"  style="width:150px; height:150px;">  ``Simple andhighly effective algorithm project``
+
+
 
 Write a program in C called push_swap which calculates and displays the smallest program that sorts the integers received as arguments.<br />
 
@@ -15,17 +21,28 @@ At the beginning:
 
 The program must display the smallest list of instructions possible to sort the stack a, the smallest number being at the top. <br />
 
-The following operations are allowed:
-* sa (swap a): Swap the first 2 elements at the top of stack a. Do nothing if there is only one or no elements.
-* sb (swap b): Swap the first 2 elements at the top of stack b. Do nothing if there is only one or no elements.
-* ss : sa and sb at the same time.
-* pa (push a): Take the first element at the top of b and put it at the top of a. Do nothing if b is empty.
-* pb (push b): Take the first element at the top of a and put it at the top of b. Do nothing if a is empty.
-* ra (rotate a): Shift up all elements of stack a by 1. The first element becomes the last one.
-* rb (rotate b): Shift up all elements of stack b by 1. The first element becomes the last one.
-* rr : ra and rb at the same time.
-* rra (reverse rotate a): Shift down all elements of stack a by 1. The last element becomes the first one.
-* rrb (reverse rotate b): Shift down all elements of stack b by 1. The last element becomes the first one.
-* rrr : rra and rrb at the same time.
+command  | action |
+---|------|
+`sa` | swap a - swap the first 2 elements at the top of *stack_a*					|
+`sb` | swap b - swap the first 2 elements at the top of *stack_b*	|
+`ss` | sa and sb at the same time |
+`pa` | push a - take the first element at the top of b and put it at the top of a. Do nothing if b is empty|
+`pb` | push b - take the first element at the top of a and put it at the top of b. Do nothing if a is empty |
+`ra` | rotate a - shift up all elements of *stack_a* by 1. The first element becomes the last one			|
+`rb` | rotate b - shift up all elements of *stack_b* by 1. The first element becomes the last one 		|
+`rr` | ra and rb at the same time			|
+`rra` |  reverse rotate a - shift down all elements of *stack_a* by 1. The last element becomes the first one	|
+`rrb` |  reverse rotate b - shift down all elements of *stack_b* by 1. The last element becomes the first one	|
+`rrr` | rra and rrb at the same time		|
 
-To better understand these operations you can play this [game](https://phemsi-a.itch.io/push-swap) made by [Paula Hemsi](https://github.com/paulahemsi)
+## study_resources
+
+* [how big_O notation works– explained with cake](https://www.freecodecamp.org/news/big-o-notation/) by [Cedd Burge](https://www.freecodecamp.org/news/author/cedd/)
+* [the quicksort sorting algorithm video](https://www.youtube.com/watch?v=uXBnyYuwPe8) by [Back To Back SWE](https://www.youtube.com/channel/UCmJz2DV1a3yfgrR7GqRtUUA)
+* [quick sort -ptbr](https://joaoarthurbm.github.io/eda/posts/quick-sort/) by João Arthur Brunet
+
+## tools
+* [push swap visualizer](https://github.com/o-reo/push_swap_visualizer) by [o-reo](https://github.com/o-reo)
+* [push swap simulator](https://phemsi-a.itch.io/push-swap) by me
+* [push_swap tester](https://github.com/laisarena/push_swap_tester) by [Lais Arena](https://github.com/laisarena)
+* [push swap tester](https://github.com/LeoFu9487/push_swap_tester) by [LeoFu](https://github.com/LeoFu9487)
